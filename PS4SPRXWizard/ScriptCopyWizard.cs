@@ -1,6 +1,5 @@
 ﻿using EnvDTE;
 using Microsoft.VisualStudio.TemplateWizard;
-using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -13,8 +12,12 @@ namespace PS4SPRXWizard
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
-            _solutionDir = replacementsDictionary["$solutiondirectory$"];
-            _templateDir = Path.GetDirectoryName((string)customParams[0]);
+            try
+            {
+                _solutionDir = replacementsDictionary["$solutiondirectory$"];
+                _templateDir = Path.GetDirectoryName((string)customParams[0]);
+            }
+            catch { }
         }
 
         public void RunFinished()
