@@ -24,8 +24,8 @@ namespace PS4TemplateExtension
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(PS4TemplateExtensionPackage.PackageGuidString)]
-    public sealed class PS4TemplateExtensionPackage : AsyncPackage
+    [Guid(PS4TemplatesExtensionPackage.PackageGuidString)]
+    public sealed class PS4TemplatesExtensionPackage : AsyncPackage
     {
         /// <summary>
         /// PS4TemplateExtensionPackage GUID string.

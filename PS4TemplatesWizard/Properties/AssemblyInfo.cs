@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PS4SPRXWizard")]
+[assembly: AssemblyTitle("PS4TemplatesWizard")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PS4SPRXWizard")]
+[assembly: AssemblyProduct("PS4TemplatesWizard")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("30a14afc-f989-4a5e-995c-23e59cac6134")]
+[assembly: Guid("2b6960d5-8c83-4cb2-9d5a-487dab1fcba6")]
 
 // Version information for an assembly consists of the following four values:
 //

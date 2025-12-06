@@ -3,9 +3,9 @@ using Microsoft.VisualStudio.TemplateWizard;
 using System.Collections.Generic;
 using System.IO;
 
-namespace PS4SPRXWizard
+namespace PS4TemplatesWizard
 {
-    public class ScriptCopyWizard : IWizard
+    public class SolutionSetup : IWizard
     {
         private string _solutionDir;
         private string _templateDir;

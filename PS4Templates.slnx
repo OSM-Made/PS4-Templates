@@ -4,9 +4,9 @@
     <Platform Name="arm64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="PS4SPRXWizard/PS4SPRXWizard.csproj" Id="30a14afc-f989-4a5e-995c-23e59cac6134" />
-  <Project Path="PS4TemplateExtension/PS4TemplateExtension.csproj" Id="3edcdf55-b9e2-4c6d-82ad-29a9323c0316">
+  <Project Path="PS4TemplateExtension/PS4TemplatesExtension.csproj" Id="3edcdf55-b9e2-4c6d-82ad-29a9323c0316">
     <Platform Solution="*|arm64" Project="arm64" />
     <Platform Solution="*|x86" Project="x86" />
   </Project>
+  <Project Path="PS4TemplatesWizard/PS4TemplatesWizard.csproj" Id="2b6960d5-8c83-4cb2-9d5a-487dab1fcba6" />
 </Solution>
