@@ -43,7 +43,7 @@ YourProject/
 │   ├── YourProject.vcxproj
 │   ├── stdafx.h          # Precompiled header - includes
 │   ├── stdafx.cpp        # Precompiled header - library links
-│   └── main.cpp
+│   └── main.cpp/prx.cpp
 ├── Scripts/
 │   └── make_fself.py     # Fake self signing script
 └── External/
