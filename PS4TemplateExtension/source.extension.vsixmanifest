@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="PS4TemplateExtension.c764a5a0-56f2-4f8e-aa3c-49cf2ae8c19e" Version="1.0" Language="en-US" Publisher="Gregory Greekas" />
+        <Identity Id="PS4TemplateExtension.c764a5a0-56f2-4f8e-aa3c-49cf2ae8c19e" Version="1.1" Language="en-US" Publisher="Gregory Greekas" />
         <DisplayName>PS4 Templates</DisplayName>
         <Description xml:space="preserve">PS4 official SDK project templates with StubMaker integration and build scripts.</Description>
         <MoreInfo>https://github.com/OSM-Made/PS4TemplateExtension</MoreInfo>
@@ -28,7 +28,9 @@
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\PS4 SPRX Project.zip" />
         <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="PS4TemplatesWizard" Path="|PS4TemplatesWizard|" AssemblyName="|PS4TemplatesWizard;AssemblyName|" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\PS4 ELF Project.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\PS4 SPRX Project.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\PS4 Static Project.zip" />
     </Assets>
 </PackageManifest>

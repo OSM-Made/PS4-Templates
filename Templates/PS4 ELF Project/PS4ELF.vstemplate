@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>PS4 ELF Project</Name>
+    <Description>Creates a basic ELF project that will be fake signed and consume the StubMaker.</Description>
+    <ProjectType>VC</ProjectType>
+    <LanguageTag>C++</LanguageTag>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>PS4_ELF_Project</DefaultName>
+	<PlatformTag>PS4</PlatformTag>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$projectname$.vcxproj" File="PS4ELF.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">PS4ELF.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>PS4TemplatesWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adfcafefc75735b0</Assembly>
+    <FullClassName>PS4TemplatesWizard.SolutionSetup</FullClassName>
+  </WizardExtension>
+</VSTemplate>
